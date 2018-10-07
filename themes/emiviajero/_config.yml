@@ -1,9 +1,29 @@
 # Header
 menu:
   Home: /home
-  Archives: /archives
+  Historia y Estio: /Historia y Estio
+  Los Aventureros Santa Cruz: /los-aventureros-santa-cruz
+  Los Aventureros Samaipata: /los-aventureros-samaipata
+  # Los Aventureros Concepcion: /Los Aventureros Concepcion
+  Ofertas: /ofertas
+  Contactos: /contactos
+  Información Turística Santa Cruz: /informacion-turistica-santa-cruz
+  Información Turistica Samaipata: /informacion-turistica-samaipata
+  # Información Turística Concepcion: /Información Turística Concepcion
+  # Archives: /archives
 rss: /atom.xml
 
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
 # Content
 excerpt_link: Read More
 fancybox: true
