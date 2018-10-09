@@ -24,10 +24,17 @@ Upon arrival you will be given in written form complete information with a map a
   - 3 minutes from the Palace of Justice.
   - Located on the avenue that goes directly to the airport (by taxi it takes 20 minutes, by bus 30).
 
+![Front](http://www.losaventureros.net/index.php/images/phocagallery/album/aventureros%20santa%20cruz.jpg)
+![Patio**](http://www.losaventureros.net/index.php/images/phocagallery/album/patio.jpg)
+![Ping pong table](http://www.losaventureros.net/index.php/images/phocagallery/ping%20pong.jpg)
+
 ## Hostel Samaipata
   - 400 meters from the central square.
   - Different categories of rooms (shared dormitories, private rooms with bathroom, apartments, tents).
 
+![Vista aérea **](http://www.losaventureros.net/index.php/images/phocagallery/aereasamaipata.jpg)
+![Vista estadio **](http://www.losaventureros.net/index.php/images/phocagallery/aereasamaipataestadio.jpg)
+![Patio del fondo **](http://www.losaventureros.net/index.php/images/phocagallery/patiofondo.jpg)
 
 We wait for you.
 ** Bartholdi Family **

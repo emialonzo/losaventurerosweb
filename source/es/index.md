@@ -24,9 +24,17 @@ Al llegar se le entregará en forma escrita información completa con mapa sobre
   - A 3 minutos del Palacio de Justicia.
   - Ubicado sobre la avenida que va directo al aeropuerto (en taxi se tarda 20 minutos, en bus 30).
 
+![Frente](http://www.losaventureros.net/index.php/images/phocagallery/album/aventureros%20santa%20cruz.jpg)
+![Patio](http://www.losaventureros.net/index.php/images/phocagallery/album/patio.jpg)
+![Mesa de ping pong](http://www.losaventureros.net/index.php/images/phocagallery/ping%20pong.jpg)
+
 ## Hostel Samaipata
   - A 400 metros de la plaza central.
   - Diferentes categorías de habitaciones (dormitorios compartidos, habitaciones privadas con baño, apartamentos, carpas).
+
+![Vista aérea](http://www.losaventureros.net/index.php/images/phocagallery/aereasamaipata.jpg)
+![Vista estadio](http://www.losaventureros.net/index.php/images/phocagallery/aereasamaipataestadio.jpg)
+![Patio del fondo](http://www.losaventureros.net/index.php/images/phocagallery/patiofondo.jpg)
 
 
 Los esperamos.
