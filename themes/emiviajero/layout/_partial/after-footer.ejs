@@ -22,4 +22,8 @@
 <% } %>
 
 <%- js('js/script') %>
+<% if (page.map){ %>
+  <%- css('leaflet/leaflet.css') %>
+  <%- js('leaflet/leaflet.js') %>
+<% } %>
 <%- partial('gauges-analytics') %>
