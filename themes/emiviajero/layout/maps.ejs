@@ -1,0 +1,31 @@
+<h1>Información turística de samaipata</h1>
+<p>lang: <%- page.lang %></p>
+<div id="mapid" style="height: 400px"></div>
+<script>
+    var puntos;
+    document.addEventListener("DOMContentLoaded", function() {
+        var map = L.map('mapid').setView([-18.1785839,-63.8799557], 16);
+        L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', 
+        {
+            attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>',
+            maxZoom: 18,
+            minZoom: 13,
+            maxBounds: [
+                //south west
+                [-18.146341143333668, -63.79760537499168],
+                //north east
+                [-18.211578414372248, -63.95124230736473]
+            ], 
+        }).addTo(map);
+        puntos = JSON.parse('<%- JSON.stringify(page.puntos) %>');
+        puntos.forEach(function(punto){
+            L.marker(punto.coordenadas,{title:punto.nombre}).addTo(map); 
+        })
+        L.control.scale().addTo(map);
+        // map.on('moveend', function() { 
+        //     console.log(map.getBounds());
+        // });
+        // northEast: Object { lat: -18.146341143333668, lng: -63.79760537499168 }
+        // _southWest: Object { lat: -18.211578414372248, lng: -63.95124230736473 }
+    });
+</script>
