@@ -20,10 +20,13 @@ timezone: America/La_Paz
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://localhost:4000
 root: /
 permalink: :year/:month/:day/:title/
-permalink_defaults:
+permalink_defaults: en
+
+i18n:
+  type: [page, post]
 
 # Directory
 source_dir: source
