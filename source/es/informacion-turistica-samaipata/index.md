@@ -1,7 +1,7 @@
 ---
 title: Información turística de Samaipata
 date: 2018-10-07 09:32:25
-layout: page
+layout: maps
 map: true
 puntos:
     -

@@ -3,6 +3,7 @@ title: Historia y estilo
 date: 2018-10-06 16:29:21
 lang: es
 ---
+
 ## Cadena Los Aventureros
 El primer Hostel Los Aventureros abrió sus puertas el año 2011, como un emprendimiento familiar de exmochileros, pensado para darle al viajero nacional e internacional máxima comodidad, por un precio razonable.
 
@@ -23,19 +24,15 @@ Al llegar se le entregará en forma escrita información completa con mapa sobre
   - A 10 minutos de la plaza principal (24 de septiembre).
   - A 3 minutos del Palacio de Justicia.
   - Ubicado sobre la avenida que va directo al aeropuerto (en taxi se tarda 20 minutos, en bus 30).
+{% galeria http://www.losaventureros.net/index.php/images/phocagallery/album/aventureros%20santa%20cruz.jpg http://www.losaventureros.net/index.php/images/phocagallery/album/patio.jpg http://www.losaventureros.net/index.php/images/phocagallery/ping%20pong.jpg %}
 
-![Frente](http://www.losaventureros.net/index.php/images/phocagallery/album/aventureros%20santa%20cruz.jpg)
-![Patio](http://www.losaventureros.net/index.php/images/phocagallery/album/patio.jpg)
-![Mesa de ping pong](http://www.losaventureros.net/index.php/images/phocagallery/ping%20pong.jpg)
 
 ## Hostel Samaipata
   - A 400 metros de la plaza central.
   - Diferentes categorías de habitaciones (dormitorios compartidos, habitaciones privadas con baño, apartamentos, carpas).
 
-![Vista aérea](http://www.losaventureros.net/index.php/images/phocagallery/aereasamaipata.jpg)
-![Vista estadio](http://www.losaventureros.net/index.php/images/phocagallery/aereasamaipataestadio.jpg)
-![Patio del fondo](http://www.losaventureros.net/index.php/images/phocagallery/patiofondo.jpg)
 
+{% galeria http://www.losaventureros.net/index.php/images/phocagallery/aereasamaipata.jpg http://www.losaventureros.net/index.php/images/phocagallery/aereasamaipataestadio.jpg http://www.losaventureros.net/index.php/images/phocagallery/patiofondo.jpg  %}
 
 Los esperamos.
 **Familia Bartholdi**
