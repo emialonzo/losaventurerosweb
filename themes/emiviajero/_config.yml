@@ -1,12 +1,9 @@
 # Header
 menu:
   Home: /
-  # Historia y Estio: /Historia y Estio
-  # Los Aventureros Santa Cruz: /los-aventureros-santa-cruz
-  # Los Aventureros Samaipata: /los-aventureros-samaipata
-  Ofertas: /ofertas
-  Contactos: /contactos
-  Información Turística Santa Cruz: /informacion-turistica-santa-cruz
+  Offer: /ofertas
+  Contact: /contacto
+  Tourist Information Santa Cruz: /informacion-turistica-santa-cruz
   Información Turistica Samaipata: /informacion-turistica-samaipata
 
 # rss: /atom.xml
@@ -42,3 +39,10 @@ twitter: emialonzo
 google_plus:
 fb_admins:
 fb_app_id:
+
+
+fbid: emialonzo
+wappNro: +59165055191
+email: info@losaventureros.net
+facebook: emialonzo
+instagram: lenemyroll
