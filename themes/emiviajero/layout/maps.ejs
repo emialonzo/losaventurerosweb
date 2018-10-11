@@ -1,6 +1,22 @@
-<h1>Información turística de samaipata</h1>
-<p>lang: <%- page.lang %></p>
-<div id="mapid" style="height: 400px"></div>
+<article id="<%= page.layout %>-<%= page.slug %>" class="article article-type-<%= page.layout %>" itemscope itemprop="blogpage">
+    <div class="article-inner">
+      <%- partial('post/gallery') %>
+      <% if (page.link || page.title){ %>
+        <header class="article-header">
+          <%- partial('post/title', {class_name: 'article-title'}) %>
+        </header>
+      <% } %>
+      <div class="article-entry" itemprop="articleBody">
+          <%- page.content %>
+          <div id="mapid" style="height: 400px"></div>
+      </div>
+      <footer class="article-footer">
+        <a data-url="<%- page.permalink %>" data-id="<%= page._id %>" class="article-share-link"><%= __('share') %></a>
+      </footer>
+    </div>
+    <%- partial('post/nav') %>
+
+  </article>
 <script>
     var puntos;
     document.addEventListener("DOMContentLoaded", function() {
@@ -9,7 +25,7 @@
         {
             attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>',
             maxZoom: 18,
-            minZoom: 13,
+            minZoom: 15,
             maxBounds: [
                 //south west
                 [-18.146341143333668, -63.79760537499168],
