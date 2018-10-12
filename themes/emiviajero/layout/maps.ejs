@@ -28,15 +28,18 @@
         }
         return colores[categoria] || 'blue'
     }
-    // function iconoPorCategoria(categoria){
-    //     var icons = {
-    //         'hostel': 'home',
-    //         'financiero': 'dollar-sign',
-    //         'turismo': 'map-pin',
-    //         'turismo': 'bus',
-    //     }
-    //     return icons[categoria] || 'map-pin'
-    // }
+
+    function iconoPorCategoria(categoria){
+        var icons = {
+            'hostel': 'fa-home',
+            'financiero': 'fa-dollar-sign',
+            'turismo': 'fa-map-pin',
+            'transporte': 'fa-bus',
+            'restaurante': 'fa-utensils', 
+        }
+        return icons[categoria] || 'fa-map-pin'
+    }
+
     document.addEventListener("DOMContentLoaded", function() {
         var center = JSON.parse('<%- JSON.stringify(page.center) %>');
         var map = L.map('mapid').setView(center, 16);
@@ -52,14 +55,13 @@
                 [-18.211578414372248, -63.95124230736473]
             ], 
         }).addTo(map);
-        //${iconoPorCategoria(punto.tipo)}
         puntos = JSON.parse('<%- JSON.stringify(page.puntos) %>');
         puntos.forEach(function(punto){
-            console.log(punto)
+            // htmlIcon = `<i class="fas ${iconoPorCategoria(punto.tipo)}" style="color: ${colorPorCategoria(punto.tipo)};"></i>`
             L.marker(punto.coordenadas,{
                 title:punto.nombre,
                 icon: L.divIcon({
-                    html: `<i class="fas map-pin" style="color: ${colorPorCategoria(punto.tipo)};"></i>`,
+                    html: `<i class="fas ${iconoPorCategoria(punto.tipo)}" style="color: ${colorPorCategoria(punto.tipo)};"></i>`,
                     iconSize: [70, 70],
                     className: 'myDivIcon'
                 })
