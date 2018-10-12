@@ -19,8 +19,27 @@
   </article>
 <script>
     var puntos;
+    function colorPorCategoria(categoria){
+        var colores = {
+            'hostel': 'red',
+            'financiero': 'yellow',
+            'turismo': 'green',
+            'turismo': 'purple',
+        }
+        return colores[categoria] || 'blue'
+    }
+    // function iconoPorCategoria(categoria){
+    //     var icons = {
+    //         'hostel': 'home',
+    //         'financiero': 'dollar-sign',
+    //         'turismo': 'map-pin',
+    //         'turismo': 'bus',
+    //     }
+    //     return icons[categoria] || 'map-pin'
+    // }
     document.addEventListener("DOMContentLoaded", function() {
-        var map = L.map('mapid').setView([-18.1785839,-63.8799557], 16);
+        var center = JSON.parse('<%- JSON.stringify(page.center) %>');
+        var map = L.map('mapid').setView(center, 16);
         L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', 
         {
             attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>',
@@ -33,9 +52,19 @@
                 [-18.211578414372248, -63.95124230736473]
             ], 
         }).addTo(map);
+        //${iconoPorCategoria(punto.tipo)}
         puntos = JSON.parse('<%- JSON.stringify(page.puntos) %>');
         puntos.forEach(function(punto){
-            L.marker(punto.coordenadas,{title:punto.nombre}).addTo(map); 
+            console.log(punto)
+            L.marker(punto.coordenadas,{
+                title:punto.nombre,
+                icon: L.divIcon({
+                    html: `<i class="fas map-pin" style="color: ${colorPorCategoria(punto.tipo)};"></i>`,
+                    iconSize: [70, 70],
+                    className: 'myDivIcon'
+                })
+            })
+            .bindPopup(`<b>${punto.nombre}</b><br>${punto.tipo}.`).addTo(map); 
         })
         L.control.scale().addTo(map);
         // map.on('moveend', function() { 
