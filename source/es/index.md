@@ -12,27 +12,47 @@ Lo más importante en los hosteles Los Aventureros es el trato personal que se l
 Nuestros Hosteles no son hoteles anónimos sino lugares para hacer amigos y pasarla bien. Las habitaciones y las áreas comunes están decoradas de forma acogedora y con mucho arte. 
 
 Ofrecemos todos los servicios necesarios : 
-  - WiFi en las habitaciones,
+  - WiFi gratuito,
   - servicio de lavandería,
   - desayuno,
   - recepción las 24 horas.
+  - información escrita con mapas sobre Santa Cruz y Samaipata.
 
-Al llegar se le entregará en forma escrita información completa con mapa sobre Santa Cruz y Samaipata.
 
-
-## Hostel Santa Cruz
+## Los Aventureros Santa Cruz, ubicación inmejorable
   - A 10 minutos de la plaza principal (24 de septiembre).
   - A 3 minutos del Palacio de Justicia.
-  - Ubicado sobre la avenida que va directo al aeropuerto (en taxi se tarda 20 minutos, en bus 30).
-{% galeria http://www.losaventureros.net/index.php/images/phocagallery/album/aventureros%20santa%20cruz.jpg http://www.losaventureros.net/index.php/images/phocagallery/album/patio.jpg http://www.losaventureros.net/index.php/images/phocagallery/ping%20pong.jpg %}
+  - Ubicado sobre la avenida que va directo al aeropuerto (en taxi se tarda 15 min, en bus 20).
+
+{% galeria
+http://www.losaventureros.net/index.php/images/phocagallery/album/aventureros%20santa%20cruz.jpg
+http://www.losaventureros.net/index.php/images/phocagallery/santaCruz/escritoriotarjeta.jpg
+http://www.losaventureros.net/index.php/images/phocagallery/santaCruz/hab.jpg
+http://www.losaventureros.net/index.php/images/phocagallery/santaCruz/hab%20doble.jpg
+http://www.losaventureros.net/index.php/images/phocagallery/santaCruz/compartida.jpg
+http://www.losaventureros.net/index.php/images/phocagallery/santaCruz/escaleras.jpg
+http://www.losaventureros.net/index.php/images/phocagallery/album/patio.jpg
+http://www.losaventureros.net/index.php/images/phocagallery/santaCruz/cocina.jpg
+http://www.losaventureros.net/index.php/images/phocagallery/ping%20pong.jpg 
+http://www.losaventureros.net/index.php/images/phocagallery/santaCruz/ciudad.jpg
+%}
 
 
-## Hostel Samaipata
-  - A 400 metros de la plaza central.
+## Los Aventureros Samaipata
+  - A 3 cuadras de la plaza central.
   - Diferentes categorías de habitaciones (dormitorios compartidos, habitaciones privadas con baño, apartamentos, carpas).
 
-
-{% galeria http://www.losaventureros.net/index.php/images/phocagallery/aereasamaipata.jpg http://www.losaventureros.net/index.php/images/phocagallery/aereasamaipataestadio.jpg http://www.losaventureros.net/index.php/images/phocagallery/patiofondo.jpg  %}
+{% galeria 
+http://www.losaventureros.net/index.php/images/phocagallery/samaipata/fachada.jpg
+http://www.losaventureros.net/index.php/images/phocagallery/samaipata/frentecarpas.jpg
+http://www.losaventureros.net/index.php/images/phocagallery/samaipata/compartida.jpg
+http://www.losaventureros.net/index.php/images/phocagallery/samaipata/habprivada.jpg
+http://www.losaventureros.net/index.php/images/phocagallery/samaipata/apto.jpg
+http://www.losaventureros.net/index.php/images/phocagallery/patiofondo.jpg
+http://www.losaventureros.net/index.php/images/phocagallery/samaipata/tienda%20doblecabecera.jpg
+http://www.losaventureros.net/index.php/images/phocagallery/aereasamaipata.jpg
+http://www.losaventureros.net/index.php/images/phocagallery/aereasamaipataestadio.jpg
+%}
 
 Los esperamos.
 **Familia Bartholdi**

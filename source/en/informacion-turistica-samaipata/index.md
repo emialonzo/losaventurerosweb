@@ -1,73 +1,65 @@
 ---
-title: Información turística de Samaipata
+title: Tourist information of Samaipata
 date: 2018-10-07 09:32:25
 layout: maps
 map: true
+center: [-18.1785839,-63.8799557]
 puntos:
     -
-      nombre: aventureros
+      nombre: Los aventureros
       coordenadas: [-18.1764610,-63.8782085]
       tipo: hostel
-    - 
-      nombre: vagabundos
+    - nombre: Vagabundos
       coordenadas: [-18.17902, -63.87693]
       tipo: hostel
+    - nombre: Micro Mercado La Estrellita
+      coordenadas: [-18.177, -63.8694]
+      tipo: transporte
+    - nombre: Plaza
+      coordenadas: [-18.1799, -63.8757]
+      tipo: turismo
+    - nombre: Museo arqueológico
+      coordenadas: [-18.17829, -63.87409]
+      tipo: turismo
+    - nombre: Operadores turísticos
+      coordenadas: [-18.17846, -63.87436]
+      tipo: turismo
+    - nombre: Salida Trufis a Santa Cruz
+      coordenadas: [-18.18036, -63.87639]
+      tipo: transporte
+    - nombre: Tranca para ir a Mairana
+      coordenadas: [-18.17224, -63.88003]
+      tipo: transporte
+    - nombre: Banco Unión
+      coordenadas: [-18.17902, -63.8741]
+      tipo: financiero
+    - nombre: Restaurante tierra libre
+      coordenadas: [-18.18023, -63.87652]
+      tipo: restaurante      
 ---
-** Tourist information of Samaipata **
+## How to get
+ - From * Santa Cruz *, by collective taxi (minivan that leaves when it is full).
 
-All the places mentioned in the text are marked on the map with
-numbers.
+  There are two exit points: Calle Omar Chávez and Calle Arumá.
 
-* How to get to Samaipata *
- - From * Santa Cruz *, by collective taxi (minivan departing when
-full).
+ - From * Sucre * there are regular buses that arrive in Samaipata between 3:00 and 6:00 in the morning.
 
-  There are two exit points:
-    - One in the center (Omar Chavez street, difficult to reach and exit, see small map no.1); you arrive in Samaipata to the main square.
-    - Another near the double track to La Guardia (Arumá street, it is easily reached and you are already at the exit to Samaipata, small plane No. 2); Samaipata is reached at the main intersection (23) on the road and the entrance to the town.
+## How to continue travel
 
-  From these two places of arrival they also go back to Santa
-Cross.
+A ** SUCRE **: The buses to Sucre come from Santa Cruz and stop at 20:00 in the restaurant El Nuevo Turista. Tickets have to be purchased on the same day morning at that restaurant (Bs 60, - 120, -).
 
- - From * Sucre * arrive between 3:00 and 6:00 in the morning and stop at
-the intersection (23).
+A ** COCHABAMBA **: The buses to Cochabamba (company Transpojo, Bs 30, -) depart from the neighboring town Mairana (17 km) in the morning at 8:30 and in the afternoon at 3:00 p.m. Mairana takes a collective taxi (7 Bs.), Which is taken on the highway.
 
-* How to go towards ... *
+A ** VALLEGRANDE **: (route del Ché) by collective taxi or by small buses, departing from Mairana. Of Vallegrande it is followed in buses or buses to Pucara and La Higuera.
 
- - The buses to * Sucre * come from Santa Cruz and stop at 20:00 in the restaurant El Nuevo Turista (24). Tickets have to be purchased in the morning in that restaurant or in an office in Calle Campero (25).
- - The buses to * Cochabamba * (company Transpojo) leave the neighboring town Mairana (17 km) every afternoon at 3:00 p.m. and arrive in Cochabamba at 3:00 a.m. Passengers are allowed to stay on the bus until 6:00.
- - A * Mairana * goes by collective taxi (7 Bs.), Which leaves the main intersection (23).
- - A * Vallegrande *, (Ché route) goes by collective taxi or small buses, which leave the intersection (23). Of Vallegrande it is followed in buses or buses to Pucara and La Higuera.
  - There is a night bus that goes to Sucre, passing through Vallegrande, Pucara (10 km to La Higuera) and Villa Serrano.
 
-** ATMs and money exchange **
+## What to do
 
- - ATM in UNION BANK (2) (** attention **: not all ATMs work with all cards).
- - COOPERATIVA LA MERCED: You can withdraw money directly with your credit card (charge 5% commission).
-    In both places American dollars are exchanged.
- - VALLEVISIÓN television company (Warnes street) (4) dollars and euros are exchanged.
+** EL FUERTE **: the most important attraction in Samaipata, 10 km from the city; It is a gigantic rock carved entirely with different motifs. In the vicinity, a pre-Hispanic settlement has been partially rebuilt.
 
-** What to do in Samaipata **
+** AMBORO PARK **: in the vicinity of Samaipata; one of the largest natural parks in Bolivia; it can only be explored with Tour Operators.
 
-- EL FUERTE: the most important attraction of Samaipata, 10 km away from the city in height; It is a gigantic rock carved entirely with different motifs. In the vicinity an Inca settlement has been partially rebuilt. There are interesting theories about the origin of the rock by von Däniken, d'Orbigny and T. Haenke.
+** ZOO REFUGE **: small zoo and shelter for rescued animals, operated by volunteers, 2.5 km from Los Aventureros.
 
-    - The entrance fee is Bs 50 for foreigners and Bs 25 for nationals and is also valid for visiting the museum in the village (16).
-    - You can get there by taxi (Bs 100 only one way, Bs 150 round trip) or motorcycle taxi.
-    - The Adventurers offer a special price (Bs 50 one way, Bs 100 round trip).
-    - Many travelers get in a vehicle and go down on foot.
-
-- AMBORO PARK: in the vicinity of Samaipata; one of the largest natural parks in Bolivia; that can only be explored with Tour Operators.
-
-    - The tours can be from 6 hours to 11 days.
-    - We recommend the excursion to the Forest of the Giant Ferns.
-
-- Tour operators: most have their offices in Bolívar Street, it is convenient to compare prices and offers. Recommendable:
-
-  - Michael Blendinger (17);
-  - Jucumari Tours (18);
-  - Road Runners,
-  - Amboro Tours.
-
-- ZOO REFUGE (19): small zoo and shelter for rescued animals, operated by volunteers, 2.5 km from Los Aventureros.
-
-- CAVE, 20 km from Samaipata in the direction of Santa Cruz; natural pools and waterfalls, roundtrip taxi ride to Bs 100.
+** CAVE **: 20 km from Samaipata towards Santa Cruz; natural pools and waterfalls.

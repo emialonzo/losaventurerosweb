@@ -1,73 +1,66 @@
 ---
-title: Información turística de Samaipata
+title: Touristische Informationen über Samaipata
 date: 2018-10-07 09:32:25
 layout: maps
 map: true
+center: [-18.1785839,-63.8799557]
 puntos:
     -
-      nombre: aventureros
+      nombre: Los aventureros
       coordenadas: [-18.1764610,-63.8782085]
       tipo: hostel
-    - 
-      nombre: vagabundos
+    - nombre: Vagabundos
       coordenadas: [-18.17902, -63.87693]
       tipo: hostel
+    - nombre: Micro Mercado La Estrellita
+      coordenadas: [-18.177, -63.8694]
+      tipo: transporte
+    - nombre: Plaza
+      coordenadas: [-18.1799, -63.8757]
+      tipo: turismo
+    - nombre: Museo arqueológico
+      coordenadas: [-18.17829, -63.87409]
+      tipo: turismo
+    - nombre: Operadores turísticos
+      coordenadas: [-18.17846, -63.87436]
+      tipo: turismo
+    - nombre: Salida Trufis a Santa Cruz
+      coordenadas: [-18.18036, -63.87639]
+      tipo: transporte
+    - nombre: Tranca para ir a Mairana
+      coordenadas: [-18.17224, -63.88003]
+      tipo: transporte
+    - nombre: Banco Unión
+      coordenadas: [-18.17902, -63.8741]
+      tipo: financiero
+    - nombre: Restaurante tierra libre
+      coordenadas: [-18.18023, -63.87652]
+      tipo: restaurante      
 ---
-** Touristeninformation von Samaipata **
 
-Alle im Text erwähnten Orte sind auf der Karte mit markiert
-Zahlen
+## Wie komme ich hin?
+ - Von * Santa Cruz *, mit Sammeltaxi (Minivan, wenn es voll ist).
 
-* Wie komme ich nach Samaipata *
- - Von * Santa Cruz *, mit Sammeltaxi (minivan abfliegen wenn
-voll).
+  Es gibt zwei Ausgangspunkte: Calle Omar Chávez und Calle Arumá.
 
-  Es gibt zwei Ausstiegspunkte:
-    - Eine in der Mitte (Omar Chavez Straße, schwer zu erreichen und zu verlassen, siehe kleine Karte Nr. 1); Sie kommen in Samaipata zum Hauptplatz.
-    - Ein weiterer in der Nähe der Doppelspur nach La Guardia (Arumá Straße, ist leicht zu erreichen und Sie sind bereits am Ausgang nach Samaipata, kleines Flugzeug Nr. 2); Samaipata ist an der Hauptkreuzung (23) auf der Straße und dem Eingang zur Stadt erreicht.
+ - Von Sucre * * sind normale Busse, die Samaipata von 3.00 bis 06.00 Uhr erreichen.
 
-  Von diesen beiden Ankunftsorten gehen sie auch zurück zum Weihnachtsmann
-Cruz
+## Wie man weiter reist
 
- - Von * Sucre * Ankunft zwischen 3:00 und 6:00 Uhr morgens und Halt bei
-die Kreuzung (23).
+** A ** SUCRE: Busse von Sucre Santa Cruz kommen und ab 20:00 Uhr im Restaurant The New Economy stoppen. Tickets müssen am selben Tag morgens in diesem Restaurant gekauft werden (Bs 60, - 120, -).
 
-* Wie gehe ich in Richtung ... *
+COCHABAMBA A ** **: Busse nach Cochabamba (Transpojo Unternehmen, 30 B, -) am Morgen das Nachbardorf (17 km) um 15:00 Uhr bei 8:30 und am Nachmittag Mairana zu verlassen. Mairana nimmt ein Sammeltaxi (7 Bs.), Welches auf der Autobahn genommen wird.
 
- - Die Busse nach * Sucre * kommen von Santa Cruz und halten um 20:00 Uhr im Restaurant El Nuevo Turista (24). Tickets müssen morgens in diesem Restaurant oder in einem Büro in der Calle Campero (25) gekauft werden.
- - Die Busse nach * Cochabamba * (Firma Transpojo) verlassen die Nachbarstadt Mairana (17 km) jeden Nachmittag um 15:00 Uhr und erreichen Cochabamba um 3:00 Uhr. Passagiere dürfen bis 6:00 Uhr im Bus bleiben.
- - A * Mairana * fährt mit Sammeltaxi (7 Bs.), Die die Hauptkreuzung (23) verlässt.
- - A * Vallegrande *, (Ché-Route) fährt mit Sammeltaxi oder kleinen Bussen, die die Kreuzung (23) verlassen. Von Vallegrande ist es in Bussen oder Bussen nach Pucara und La Higuera.
- - Es gibt einen Nachtbus, der nach Sucre fährt, durch Vallegrande, Pucara (10 km nach La Higuera) und Villa Serrano.
+** A ** Vallegrande (Ché Strecke) von Jeepney oder Kleinbusse, so dass Mairana. Von Vallegrande ist es in Bussen oder Bussen nach Pucara und La Higuera.
 
-** Geldautomaten und Geldwechsel **
+ - Es gibt einen Nachtbus, der nach Sucre zu Vallegrande, Pucara (10 km von La Higuera) und Villa Serrano geht.
 
- - ATM in der UNION BANK (2) (** Achtung **: Nicht alle Geldautomaten funktionieren mit allen Karten).
- - COOPERATIVA LA MERCED: Sie können Geld direkt mit Ihrer Kreditkarte abheben (Gebühr 5% Provision).
-    An beiden Orten werden amerikanische Dollars ausgetauscht.
- - VALLEVISIÓN Fernsehgesellschaft (Warnes Straße) (4) Dollar und Euro werden ausgetauscht.
+## Was zu tun ist
 
-** Was tun in Samaipata **
+** EL FUERTE **: die wichtigste Attraktion in Samaipata, 10 km von der Stadt entfernt; Es ist ein gigantischer Felsen, der komplett mit verschiedenen Motiven verziert ist. In der Nähe wurde eine vorspanische Siedlung teilweise neu aufgebaut.
 
-- EL FUERTE: die wichtigste Attraktion von Samaipata, 10 km von der Stadt entfernt; Es ist ein gigantischer Felsen, der komplett mit verschiedenen Motiven verziert ist. In der Nähe wurde eine Inkasiedlung teilweise neu aufgebaut. Es gibt interessante Theorien über die Entstehung des Gesteins von Däniken, d'Orbigny und T. Haenke.
+** AMBORO PARK **: in der Nähe von Samaipata; einer der größten Naturparks in Bolivien; es kann nur mit Reiseveranstaltern erkundet werden.
 
-    - Der Eintrittspreis beträgt Bs 50 für Ausländer und Bs 25 für Staatsangehörige und gilt auch für den Besuch des Museums im Dorf (16).
-    - Sie können mit dem Taxi (Bs 100 nur Hinfahrt, Bs 150 Hin- und Rückfahrt) oder mit dem Motorradtaxi fahren.
-    - Die Abenteurer bieten einen Sonderpreis an (Bs 50 pro Strecke, Bs 100 Hin- und Rückfahrt).
-    - Viele Reisende steigen in ein Fahrzeug ein und gehen zu Fuß.
+** ZOO REFUGE **: kleiner Zoo und Tierheim für gerettete Tiere, von Freiwilligen betrieben, 2,5 km von Los Aventureros.
 
-- AMBORO PARK: in der Nähe von Samaipata; einer der größten Naturparks in Bolivien; das kann nur mit Reiseveranstaltern erkundet werden.
-
-    - Die Touren können von 6 Stunden bis 11 Tage dauern.
-    - Wir empfehlen den Ausflug in den Wald der Riesenfarne.
-
-- Reiseveranstalter: Die meisten haben ihre Büros in der Bolívar Straße, es ist günstig, Preise und Angebote zu vergleichen. Empfohlen:
-
-  - Michael Blendinger (17);
-  - Jucumari Touren (18);
-  - Road Runner,
-  - Amboro Tours.
-
-- ZOO REFUGE (19): kleiner Zoo und Tierheim für gerettete Tiere, von Freiwilligen betrieben, 2,5 km von Los Aventureros entfernt.
-
-- CAVE, 20 km von Samaipata in Richtung Santa Cruz; natürliche Pools und Wasserfälle, Hin- und Rückfahrt mit dem Taxi zu Bs 100.
+** CAVE **: 20 km von Samaipata in Richtung Santa Cruz; natürliche Pools und Wasserfälle.
