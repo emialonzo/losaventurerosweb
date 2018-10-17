@@ -1,8 +1,8 @@
 <%- partial('_partial/head') %>
-<body>
+<body class="background-pattern">
   <div id="container">
     <div id="wrap">
-      <%- partial('_partial/header', null, {cache: !config.relative_link}) %>
+      <%- partial('_partial/header', null, {page:page}) %>
       <div class="outer">
         <section id="main"><%- body %></section>
         <% if (theme.sidebar && theme.sidebar !== 'bottom'){ %>
