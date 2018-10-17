@@ -1,0 +1,80 @@
+<article id="<%= page.layout %>-<%= page.slug %>" class="article article-type-<%= page.layout %>" itemscope itemprop="blogpage">
+    <div class="article-inner">
+      <!-- <%- partial('post/gallery') %> -->
+      <% if (page.link || page.title){ %>
+        <header class="article-header">
+          <%- partial('post/title', {class_name: 'article-title'}) %>
+        </header>
+      <% } %>
+      <div class="article-entry" itemprop="articleBody">
+          <%- page.content %>
+
+        <a href="https://api.whatsapp.com/send?phone=59176453198" target="_blank">
+            <div class="card">
+                <div class="img-icon">
+                    <i class="fab fa-whatsapp"></i>
+                </div>
+                <div class="card-container">
+                    <h4><b>Whatsapp Santa Cruz</b></h4>
+                </div>
+            </div>
+        </a>
+        <a href="https://api.whatsapp.com/send?phone=<%- theme.wappNro %>" target="_blank">
+            <div class="card">
+                <div class="img-icon">
+                    <i class="fab fa-whatsapp"></i>
+                </div>
+                <div class="card-container">
+                    <h4><b>Whatsapp Samaipata</b></h4>
+                </div>
+            </div>
+        </a>
+        <a href="https://m.me/<%- theme.fbid %>" target="_blank">
+            <div class="card">
+                <div class="img-icon">
+                    <i class="fab fa-facebook-messenger"></i>
+                </div>
+                <div class="card-container">
+                    <h4><b>Facebook messenger</b></h4>
+                </div>
+            </div>
+        </a>
+        <a href="https://www.instagram.com/<%- theme.instagram %>" target="_blank">
+            <div class="card">
+                <div class="img-icon">
+                        <i class="fab fa-instagram"></i> 
+                </div>
+                <div class="card-container">
+                    <h4><b>Instagram</b></h4>
+                </div>
+            </div>
+        </a>
+        <a href="https://www.facebook.com/<%- theme.facebook %>" target="_blank">
+            <div class="card">
+                <div class="img-icon">
+                    <i class="fab fa-facebook"></i>
+                </div>
+                <div class="card-container">
+                    <h4><b>Facebook</b></h4>
+                </div>
+            </div>
+        </a>
+        <a href="mailto:<%- theme.email %>" target="_blank">
+            <div class="card">
+                <div class="img-icon">
+                    <i class="fas fa-at"></i>
+                </div>
+                <div class="card-container">
+                    <h4><b>Email</b></h4>
+                </div>
+            </div>
+        </a>
+          
+      </div>
+      <footer class="article-footer">
+        <a data-url="<%- page.permalink %>" data-id="<%= page._id %>" class="article-share-link"><%= __('share') %></a>
+      </footer>
+    </div>
+    <%- partial('post/nav') %>
+
+  </article>
