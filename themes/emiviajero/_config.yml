@@ -1,10 +1,10 @@
 # Header
 menu:
-  Home: /
-  Offer: /ofertas
-  Contact: /contacto
-  Tourist Information Santa Cruz: /informacion-turistica-santa-cruz
-  Información Turistica Samaipata: /informacion-turistica-samaipata
+  home: /
+  tourist_information_santa_cruz: /informacion-turistica-santa-cruz
+  tourist_information_samaipata: /informacion-turistica-samaipata
+  contact: /contacto
+  offers: /ofertas
 
 # rss: /atom.xml
     
@@ -34,7 +34,7 @@ show_count: false
 # Miscellaneous
 google_analytics:
 gauges_analytics:
-favicon: /favicon.png
+favicon: /favicon.ico
 twitter: emialonzo
 google_plus:
 fb_admins:
