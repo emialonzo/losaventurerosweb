@@ -26,7 +26,7 @@ html, body, #container
   height: 100%
 
 body
-  background: color-background
+  // background: color-background
   font: font-size font-sans
   -webkit-text-size-adjust: 100%
 
@@ -62,15 +62,9 @@ body
   left: 0
   transition: 0.2s ease-out
   z-index: 1
-  background: color-background
+  // background: color-background
   .mobile-nav-on &
     left: mobile-nav-width
-
-.myDivIcon
-  text-align: center; /* Horizontally center the text (icon) */
-  line-height: 35px; /* Vertically center the text (icon) */
-  font-size: 2.0rem; 
-
 
 
 if sidebar and sidebar isnt bottom
@@ -92,5 +86,33 @@ if sidebar is left
 @import "_partial/highlight"
 @import "_partial/mobile"
 
+@import "_partial/contact-cards"
+@import "_partial/galeria"
+@import "_partial/bgpattern"	
+
+  
+
+// article p, article li
+//   font-size: 1.5em;
+  
+
 if sidebar
   @import "_partial/sidebar"
+
+.myDivIcon
+  text-align: center; /* Horizontally center the text (icon) */
+  line-height: 35px; /* Vertically center the text (icon) */
+  font-size: 1.5rem; 
+
+.infoLegend
+    padding: 6px 8px;
+    // font: 10px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+
+
+.infoLegend td
+    padding: 0px;
+    font-size: 0.8rem;     

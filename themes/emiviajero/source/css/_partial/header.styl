@@ -11,9 +11,9 @@
   &:before
     top: 0
     background: linear-gradient(rgba(0, 0, 0, 0.8), transparent)
-  &:after
-    bottom: 0
-    background: linear-gradient(transparent, rgba(0, 0, 0, 0.2))
+  // &:after
+  //   bottom: 0
+  //   background: linear-gradient(transparent, rgba(0, 0, 0, 0.2))
 
 #header-outer
   height: 100%
@@ -29,8 +29,14 @@
   left: 0
   width: 100%
   height: 100%
-  background: url(banner-url) center #000
-  background-size: cover
+  background: url(banner-url-nuevo) center no-repeat
+  background-size: auto 120%;
+  // @media mq-mobile
+  //   background: url(banner-url) center
+  //   background-size: 100% 100%;
+  // background-size: 100% 100%;
+  // background: url("images/banner-wide.jpg") center #000;
+  // background-size: cover
   z-index: -1
 
 #header-title
