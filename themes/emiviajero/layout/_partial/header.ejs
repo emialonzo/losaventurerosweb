@@ -14,9 +14,7 @@
     <div id="header-inner" class="inner">
       <nav id="main-nav">
         <a id="main-nav-toggle" class="nav-icon"></a>
-        <% for (var i in theme.menu){ %>
-          <a class="main-nav-link" href="/<%- page.lang %><%- url_for(theme.menu[i]) %>"><%= __(i) %></a>
-        <% } %>
+        <%- partial('_partial/menu', {page:page}) %>
       </nav>
       <nav id="sub-nav">
         <% if (theme.rss){ %> 
@@ -34,13 +32,17 @@
       <script>
         function cambiarLenguaje(e, linkLang){
           e = e || window.event;
-          var target = e.target || e.srcElement;
+          //var target = e.target || e.srcElement;
           // var linkLang = target.getAttribute('data-lang');
           var urlLang = window.location.pathname.substring(1,3);
           console.log(`linkLang:${linkLang}, urlLang:${urlLang}`)
+          if(!urlLang){
+            console.log("No esta definido el lenguaje");
+            window.location.pathname = `/${linkLang}`
+          }
           if( urlLang != linkLang){
-            var href = window.location.href.replace(urlLang, linkLang);
-            window.location.href = href;
+            window.location.pathname = window.location.pathname.replace(urlLang, linkLang);
+            //window.location.href = href;
           }
         }
 
