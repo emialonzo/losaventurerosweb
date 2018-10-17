@@ -8,7 +8,6 @@
       <% } %>
       <div class="article-entry" itemprop="articleBody">
           <%- page.content %>
-          <div id="mapid" style="height: 400px"></div>
       </div>
       <footer class="article-footer">
         <a data-url="<%- page.permalink %>" data-id="<%= page._id %>" class="article-share-link"><%= __('share') %></a>
@@ -24,7 +23,8 @@
             'hostel': 'red',
             'financiero': 'yellow',
             'turismo': 'green',
-            'turismo': 'purple',
+            'transporte': 'purple',
+            'restaurante': 'pink', 
         }
         return colores[categoria] || 'blue'
     }
@@ -43,21 +43,16 @@
     document.addEventListener("DOMContentLoaded", function() {
         var center = JSON.parse('<%- JSON.stringify(page.center) %>');
         var map = L.map('mapid').setView(center, 16);
+
         L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', 
         {
             attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>',
             maxZoom: 18,
             minZoom: 15,
-            maxBounds: [
-                //south west
-                [-18.146341143333668, -63.79760537499168],
-                //north east
-                [-18.211578414372248, -63.95124230736473]
-            ], 
         }).addTo(map);
+
         puntos = JSON.parse('<%- JSON.stringify(page.puntos) %>');
         puntos.forEach(function(punto){
-            // htmlIcon = `<i class="fas ${iconoPorCategoria(punto.tipo)}" style="color: ${colorPorCategoria(punto.tipo)};"></i>`
             L.marker(punto.coordenadas,{
                 title:punto.nombre,
                 icon: L.divIcon({
@@ -69,6 +64,27 @@
             .bindPopup(`<b>${punto.nombre}</b><br>${punto.tipo}.`).addTo(map); 
         })
         L.control.scale().addTo(map);
+
+        var legend = L.control({position: 'topleft'});
+        legend.onAdd = function (map) {
+            var div = L.DomUtil.create('div', 'infoLegend legend'),
+                categorias = ['hostel', 'financiero', 'turismo', 'transporte', 'restaurante'],
+                labels = [];
+            // loop through our density intervals and generate a label with a colored square for each interval
+            // for (var i = 0; i < categorias.length; i++) {
+            //     div.innerHTML += `<i class="fas ${iconoPorCategoria(categorias[i])}" style="color: ${colorPorCategoria(categorias[i])};"></i>${categorias[i]}<br />`;
+            // }
+
+            var strRow = ""
+            for (var i = 0; i < categorias.length; i++) {
+                strRow += `
+                <tr><td><i class="fas ${iconoPorCategoria(categorias[i])}" style="color: ${colorPorCategoria(categorias[i])};"></i></td><td>${categorias[i]}</td></tr>`;
+            }
+            div.innerHTML += `<table cellspacing="0" cellpadding="0" style='margin: 0px; border: none; border-collapse:collapse;'>${strRow}</table>`;
+            return div;
+        };
+        legend.addTo(map);
+
         // map.on('moveend', function() { 
         //     console.log(map.getBounds());
         // });
