@@ -18,8 +18,10 @@ rss_feed: RSS
 category: Categoría
 tag: Tag
 
-Contact: Contacto
-Home: Inicio
-Offers: Ofertas
-Tourist Information Santa Cruz: Información Turística Santa Cruz
-Tourist Information Samaipata: Información Turistica Samaipata
+
+
+contact: Contacto
+home: Inicio
+offers: Ofertas
+tourist_information_santa_cruz: Los Aventureros Santa Cruz
+tourist_information_samaipata: Los Aventureros Samaipata
