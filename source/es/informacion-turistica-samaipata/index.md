@@ -1,5 +1,5 @@
 ---
-title: Información turística de Samaipata
+title: Los Aventureros Samaipata
 date: 2018-10-07 09:32:25
 layout: maps
 map: true
@@ -38,7 +38,8 @@ puntos:
       tipo: restaurante      
 ---
 
-## Los Aventureros Samaipata
+# Los Aventureros Samaipata, romántico y social.
+
   - A 3 cuadras de la plaza central.
   - Diferentes categorías de habitaciones (dormitorios compartidos, habitaciones privadas con baño, apartamentos, carpas).
 
@@ -54,6 +55,29 @@ http://www.losaventureros.net/index.php/images/phocagallery/aereasamaipata.jpg
 http://www.losaventureros.net/index.php/images/phocagallery/aereasamaipataestadio.jpg
 %}
 
+{% map %}
+
+# Precios
+
+Habitación con baño privado, desayuno incluido
+  - Simple Bs 105
+  - Doble Bs 154
+  - Triple Bs 200
+
+Cama en dormitorio compartido, desayuno incluido
+  - Bs 49
+
+Carpa safari, desayuno incluido
+ - Simple Bs 70
+ - Doble Bs 105
+
+Cama en carpa camping, no incluye desayuno
+  - Bs 25 
+
+** Por razones de promoción y temporada los precios pueden cambiar a corto plazo ** les aconsejamos [contactarnos](/es/contacto) para averiguar los precios actuales.
+
+# Información turística de Samaipata
+
 ## Cómo llegar 
  - Desde *Santa Cruz*, en taxi colectivo (minivan que sale cuando se llena).
 
@@ -63,20 +87,30 @@ http://www.losaventureros.net/index.php/images/phocagallery/aereasamaipataestadi
 
 ## Cómo seguir viaje
 
-A **SUCRE**: Los buses a Sucre vienen de Santa Cruz y paran desde las 20:00 horas en el restaurante El Nuevo Turista. Los boletos tienen que comprarse en la mañana del mismo día en ese restaurante (Bs 60,--120,-).
+A **Sucre**: Los buses a Sucre vienen de Santa Cruz y paran desde las 20:00 horas en el restaurante El Nuevo Turista. Los boletos tienen que comprarse en la mañana del mismo día en ese restaurante (Bs 60,--120,-).
 
-A **COCHABAMBA**: Los buses a Cochabamba (empresa Transpojo, Bs 30,-) salen del pueblo vecino Mairana (17 km) en la mañana a las 8:30 y en la tarde a las 15:00. A Mairana se va en taxi colectivo (7 Bs.), que se toma en la carretera.
+A **Cochabamba y La Paz**: Los buses a Cochabamba (empresa Transpojo, Bs 30,-) salen del pueblo vecino Mairana (17 km) en la mañana a las 8:30 y en la tarde a las 15:00. A Mairana se va en taxi colectivo (7 Bs.), que se toma en la carretera. Para ir a La Paz cambiar de bus en Cochabamba.
 
-A **VALLEGRANDE**: (ruta del Ché)  en taxi colectivo o en pequeños buses, que salen de Mairana. De Vallegrande se sigue en colectivos o micros a Pucara y La Higuera.
+A **Vallegrande**: (ruta del Ché)  en taxi colectivo o en pequeños buses, que salen de Mairana. De Vallegrande se sigue en colectivos o micros a Pucara y La Higuera.
 
  - Hay un bus de noche, que va a Sucre, pasando por Vallegrande, Pucara (10 Km hasta La Higuera) y Villa Serrano.
 
 ## Qué hacer
 
-**EL FUERTE**: la atracción más importante de Samaipata, a 10 km  de la ciudad; se trata de una roca gigantesca tallada íntegramente con diferentes motivos. En las inmediaciones se ha reconstruido parcialmente un asentamiento prehispánico. 
+**El fuerte**: la atracción más importante de Samaipata, a 10 km  de la ciudad; se trata de una roca gigantesca tallada íntegramente con diferentes motivos. En las inmediaciones se ha reconstruido parcialmente un asentamiento prehispánico. 
 
-**PARQUE AMBORO**: en las cercanías de Samaipata; uno de los parques naturales más grandes de Bolivia;  solo puede ser explorado con Operadores Turísticos.
+**Parque Amboro**: en las cercanías de Samaipata; uno de los parques naturales más grandes de Bolivia;  solo puede ser explorado con Operadores Turísticos.
 
-**ZOOLÓGICO REFUGIO**: pequeño zoológico y refugio para animales rescatados, operado por voluntarios, a 2,5 km de Los Aventureros.
+**Zoológico Refugio**: pequeño zoológico y refugio para animales rescatados, operado por voluntarios, a 2,5 km de Los Aventureros.
 
-**CUEVA**: a 20 km de Samaipata en dirección a Santa Cruz; pozas naturales y caídas de agua.
+**Cueva**: a 20 km de Samaipata en dirección a Santa Cruz; pozas naturales y caídas de agua.
+
+**Mama Pascuala**: en el camino a El Fuerte, piscinas naturales. Se permite acampar.
+
+**La Pajcha**: Cascada espectacular a 40 km de Samaipata.
+
+**Medicina alternativa**: en Samaipata hay varios especialistas en este campo.
+
+**Viveros**: hay varias empresas pequeñas que producen plantas exóticas.
+
+**Caminatas autoguiadas**: Los Aventureros ha explorado y mapeado varias caminatas en los alrededores de Samaipata.
