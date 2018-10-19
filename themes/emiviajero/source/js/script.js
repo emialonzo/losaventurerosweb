@@ -1,35 +1,35 @@
 (function($){
   // Search
-  var $searchWrap = $('#search-form-wrap'),
-    isSearchAnim = false,
-    searchAnimDuration = 200;
+  // var $searchWrap = $('#search-form-wrap'),
+  //   isSearchAnim = false,
+  //   searchAnimDuration = 200;
 
-  var startSearchAnim = function(){
-    isSearchAnim = true;
-  };
+  // var startSearchAnim = function(){
+  //   isSearchAnim = true;
+  // };
 
-  var stopSearchAnim = function(callback){
-    setTimeout(function(){
-      isSearchAnim = false;
-      callback && callback();
-    }, searchAnimDuration);
-  };
+  // var stopSearchAnim = function(callback){
+  //   setTimeout(function(){
+  //     isSearchAnim = false;
+  //     callback && callback();
+  //   }, searchAnimDuration);
+  // };
 
-  $('#nav-search-btn').on('click', function(){
-    if (isSearchAnim) return;
+  // $('#nav-search-btn').on('click', function(){
+  //   if (isSearchAnim) return;
 
-    startSearchAnim();
-    $searchWrap.addClass('on');
-    stopSearchAnim(function(){
-      $('.search-form-input').focus();
-    });
-  });
+  //   startSearchAnim();
+  //   $searchWrap.addClass('on');
+  //   stopSearchAnim(function(){
+  //     $('.search-form-input').focus();
+  //   });
+  // });
 
-  $('.search-form-input').on('blur', function(){
-    startSearchAnim();
-    $searchWrap.removeClass('on');
-    stopSearchAnim();
-  });
+  // $('.search-form-input').on('blur', function(){
+  //   startSearchAnim();
+  //   $searchWrap.removeClass('on');
+  //   stopSearchAnim();
+  // });
 
   // Share
   $('body').on('click', function(){
@@ -55,10 +55,9 @@
         '<div id="' + id + '" class="article-share-box">',
           '<input class="article-share-input" value="' + url + '">',
           '<div class="article-share-links">',
-            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
-            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
-            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
-            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
+            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>',
+            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>',
+            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"><i class="fab fa-pinterest"></i></a>',
           '</div>',
         '</div>'
       ].join('');
