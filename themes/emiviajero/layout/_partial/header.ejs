@@ -17,20 +17,17 @@
         <%- partial('_partial/menu', {page:page}) %>
       </nav>
       <nav id="sub-nav">
-        <% if (theme.rss){ %> 
-          <a id="nav-rss-link" class="nav-icon" href="<%- url_for(theme.rss) %>" title="<%= __('rss_feed') %>"></a>
-        <% } %>
-        <a class="nav-icon" title="<%= __('search') %>">
+        <!-- <a class="nav-icon" title="<%= __('search') %>">
           <i class="fas fa-search"></i>
-        </a>
+        </a> -->
         <a onclick="cambiarLenguaje(event, 'es');" data-lang="es" id="es-btn" class="nav-icon" title="Español"><%- image_tag("img/es.gif") %></a>
         <a onclick="cambiarLenguaje(event, 'en');" data-lang="en" id="en-btn" class="nav-icon" title="English"><%- image_tag("img/en.gif") %></a>
         <a onclick="cambiarLenguaje(event, 'de');" data-lang="de" id="de-btn" class="nav-icon" title="Deutsche"><%- image_tag("img/de.gif") %></a>
         &nbsp;&nbsp;
       </nav>
-      <div id="search-form-wrap">
+      <!-- <div id="search-form-wrap">
         <%- search_form({button: '&#xF002;'}) %>
-      </div>
+      </div> -->
       <script>
         function cambiarLenguaje(e, linkLang){
           e = e || window.event;
