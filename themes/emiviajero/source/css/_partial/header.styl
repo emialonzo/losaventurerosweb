@@ -110,22 +110,22 @@ $nav-link
 
 #main-nav-toggle
   display: none
-  // &:before
-  //   content: "\f0c9"
   @media mq-mobile
     display: block
 
 #sub-nav
   float: right
-  margin-right: -15px
+  // margin-right: -15px
+  background-color: rgba(200,200,200,0.8)
+  border-radius: 5px
+  @media mq-mobile
+    margin-top: 20px
+  .nav-icon
+    padding: 5px 10px
 
 #nav-rss-link
   &:before
     content: "\f09e"
-
-// #nav-search-btn
-//   &:before
-//     content: "\f002"
 
 #search-form-wrap
   position: absolute
