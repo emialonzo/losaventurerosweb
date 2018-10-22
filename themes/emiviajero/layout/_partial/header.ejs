@@ -2,14 +2,6 @@
   <div id="banner"></div>
   <div id="header-outer" class="outer">
     <div id="header-title" class="inner">
-      <!-- <h1 id="logo-wrap">
-        <a href="<%- url_for() %>" id="logo"><%= config.title %></a>
-      </h1>
-      <% if (theme.subtitle){ %>
-        <h2 id="subtitle-wrap">
-          <a href="<%- url_for() %>" id="subtitle"><%= theme.subtitle %></a>
-        </h2>
-      <% } %> -->
     </div>
     <div id="header-inner" class="inner">
       <nav id="main-nav">
@@ -17,31 +9,28 @@
         <%- partial('_partial/menu', {page:page}) %>
       </nav>
       <nav id="sub-nav">
-        <!-- <a class="nav-icon" title="<%= __('search') %>">
-          <i class="fas fa-search"></i>
-        </a> -->
         <a onclick="cambiarLenguaje(event, 'es');" data-lang="es" id="es-btn" class="nav-icon" title="Español"><%- image_tag("img/es.gif") %></a>
         <a onclick="cambiarLenguaje(event, 'en');" data-lang="en" id="en-btn" class="nav-icon" title="English"><%- image_tag("img/en.gif") %></a>
         <a onclick="cambiarLenguaje(event, 'de');" data-lang="de" id="de-btn" class="nav-icon" title="Deutsche"><%- image_tag("img/de.gif") %></a>
         &nbsp;&nbsp;
       </nav>
-      <!-- <div id="search-form-wrap">
-        <%- search_form({button: '&#xF002;'}) %>
-      </div> -->
       <script>
         function cambiarLenguaje(e, linkLang){
           e = e || window.event;
-          //var target = e.target || e.srcElement;
-          // var linkLang = target.getAttribute('data-lang');
-          var urlLang = window.location.pathname.substring(1,3);
-          console.log(`linkLang:${linkLang}, urlLang:${urlLang}`)
-          if(!urlLang){
+
+          // var urlLang = window.location.pathname.substring(1,3);
+          var expReg = /\/((es)|(en)|(de))\//;
+          var match = expReg.exec(window.location.pathname);
+          if(!match){
             console.log("No esta definido el lenguaje");
             window.location.pathname = `/${linkLang}`
           }
-          if( urlLang != linkLang){
-            window.location.pathname = window.location.pathname.replace(urlLang, linkLang);
-            //window.location.href = href;
+          else{
+            var urlLang = match[1]
+            if( urlLang != linkLang){
+              // window.location.pathname = window.location.pathname.replace(urlLang, linkLang);
+              window.location.pathname = window.location.pathname.replace(expReg, `/${linkLang}/`)
+            }
           }
         }
 
