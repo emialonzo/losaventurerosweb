@@ -6,8 +6,7 @@ layout: page
 
 # Welcome to *Los Aventureros Hostel*
 
-Select the language
 
-## [Español](/es)
-## [English](/en)
-## [Deutsche](/de)
+## [Español](es)
+## [English](en)
+## [Deutsche](de)
