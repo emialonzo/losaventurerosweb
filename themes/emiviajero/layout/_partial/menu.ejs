@@ -1,3 +1,4 @@
 <% for (var i in theme.menu){ %>
-    <a class="main-nav-link" href="/<%- page.lang %><%- url_for(theme.menu[i]) %>"><%= __(i) %></a>
+    <!-- <a class="main-nav-link" href="/<%- page.lang %><%- url_for(theme.menu[i]) %>"><%= __(i) %></a> -->
+    <a class="main-nav-link" href="<%- config.root %><%- page.lang %><%- theme.menu[i] %>"><%= __(i) %></a>
 <% } %>
